@@ -1,79 +1,78 @@
-# WorkAdventure Map Starter Kit
+# WorkAdventure sipgate Map
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+In diesem Repo soll unser neues Virtuelles Büro entstehen. Du willst mitarbeiten? Super! Alles was du dafür brauchst findest du hier
 
 ## Tools you will need
 
-In order to build your own map for WorkAdventure, you need:
+Um loszustarten brauchst du:
 
 - the [Tiled editor](https://www.mapeditor.org/) software
-- "tiles" (i.e. images) to create your map (this starter kit provides a good default tileset for offices)
-- a web-server to serve your map (this starter kit proposes to use Github static pages as a web-server which is both free and performant)
+- "tiles" (i.e. images) - Die wichtigsten sind bereits in diesem Projekt importiert. Wenn du neue Importierst achte darauf, dass die Lizenz eine Open Source Lizenz ist und trage die Links / Quellen bitte in die [assets.txt](assets.txt) ein.
 
-## Getting started
+## Was kann ich beitragen?
 
-On the [Github repository page](https://github.com/thecodingmachine/workadventure-map-starter-kit),
-click the **"Use this template"** button. You will be prompted to enter a repository name for your map.
+Jeder ist willkommen der mitmachen möchte :) schau doch einfach mal im [Slack-Channel: #sipgate-workadventure](https://join.slack.com/share/zt-jmrubitv-9TaA2amEUZlmOSgQBIWMtg) vorbei.
 
-![](docs/create_repo.png)
+Du kannst gerne deinen Teamraum füllen, neue Sprites bauen die mehr nach sipgate aussehen oder sipgate einfach hübscher machen :)
 
-Be sure to keep the repository "Public".
+Da es zu merge-Konflikten kommen kann, wenn mehrere gleichzeitig an einer Datei arbeiten, wollen wir uns im Slack-Channel absprechen. Vielleicht nutzen wir auch einfach das 3D Token vom Hubot :)
 
-In your newly created repository, click on the **Settings tab** and scroll down to the **GitHub Pages** section.
-Then select the **gh-pages** branch. 
+## Cloning this repo
 
-![](docs/github_pages.png)
-
-Wait a few minutes a Github will deploy a new website with the content of the repository.
-The address of the website is visible in the "GitHub Pages" section.
-
-![](docs/website_address.png)
-
-Click on the link. You should be redirected directly to WorkAdventure, on your map!
-
-## Customizing your map
-
-Your map is now up and online. You need to customize it.
-
-### Cloning the map
-
-Start by cloning the map. If you are used to Git and GitHub, simply clone the map
-to your computer using your preferred tool and [jump to the next chapter](#loading-the-map-in-tiled).
-
-If you are new to Git, cloning the map means downloading the map to your computer.
-To do this, you will need Git, or a Git compatible tool. Our advice is to use
-[GitHub Desktop](https://desktop.github.com/).
-
-TODO: test and continue
+Um dich zu beteiligen brauchst check einfach dieses Repo aus.
+Bist du noch nicht in der sipgate Orga im öffentlichen Github so sprich kurz mit Mathias, Celina oder Ben und lass dich hinzufügen, dann kannst du dieses Repo auch bearbeiten.
 
 ### Loading the map in Tiled
 
-The sample map is in the file `map.json`.
-You can load this file in [Tiled](https://www.mapeditor.org/).
+In Tiled kannst du einfach durch "File" -> "Open" eine der <Kartenname>.json Files öffnen und losstarten.
 
-Now, it's up to you to edit the map and write your own map.
-
-Some resources regarding Tiled:
+Falls du etwas Hilfe im Umgang mit Tilded brauchst, schau dochmal hier:
 
 - [Tiled documentation](https://doc.mapeditor.org/en/stable/manual/introduction/)
 - [Tiled video tutorials](https://www.gamefromscratch.com/post/2015/10/14/Tiled-Map-Editor-Tutorial-Series.aspx)
 
 ### About WorkAdventu.re maps
 
-In order to design a map that will be readable by WorkAdventure, you will have to respect some constraints.
+Um eine Karte zu entwerfen, die von WorkAdventure gelesen werden kann, musst du einige Einschränkungen beachten.
 
-In particular, you will need to:
+Insbesondere müsst du:
 
-- set a start position for the players
-- configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
-- eventually, you can place exits that link to other maps
+- eine Startposition für die Spieler festlegen
+- den "floor layer" konfigurieren (so dass WorkAdventure Zeichen über dem Boden, aber unter der Decke korrekt anzeigen kann)
+- schließlich kannst du auch Ausgänge platzieren, die auf andere Karten verweisen
 
-All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
-Please be sure to check it out. 
+All dies wird in der [WorkAdventure-Dokumentation] (https://github.com/thecodingmachine/workadventure/#designing-a-map) beschrieben.
+
+### Howto: Übersichtlichkeit
+
+Da jede Karte nur eine Datei hat, wollen wir mit den Layern versuchen etwas Ordnung zu halten.
+
+Aktuell gibt es folgende Layer:
+
+- stuffFront (Dinge die über der Spielerfigur angezeigt werden sollen)
+- floorLayer (Die Eben für die Chars)
+- stuffTop (Dinge im Hintergrund - Layer 1)
+- stuffBottom (Dinge im Hintergrund - Layer 2)
+- blockingObjectsTop (Dinge im Hintergrund die blockieren - Layer 1)
+- blockingObjectsBottom (Dinge im Hintergrund die blockieren - Layer 2)
+- wall (Die Wand)
+- link_<name> (Links zu andern Seiten)
+- jitsi_<name> (Links zu Jitsi Meeting Räumen)
+- map_<name> (Links zu anderen Karten)
+- start (Startposition der Spieler)
+- bottom (der Boden)
+- clearMap (der Hintergrund)
+
+Für manche Stuff/BlockingObject gibt es 2 Layer, weil manchmal möchte man z.B. einen Computer haben und darüber eine Pflanze positionieren. Dafür braucht man dann einfach 2 Layer.
+
+Wir wollen versuchen die neu platzierten Objekte den Layern zuzuordnen.
+
+### Fragen
+
+Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://join.slack.com/share/zt-jmrubitv-9TaA2amEUZlmOSgQBIWMtg) oder frag Celina oder Mathias
 
 ### Pushing the map
 
-When your changes are ready, you need to "commit" and "push" the changes back to GitHub.
-Just wait a few minutes, and your map will be propagated automatically to the GitHub pages web-server.
-
-TODO: describe how to push
+Wenn Deine Änderungen fertig sind, müssen du sie nur "committen" und an GitHub zurück "puschen".
+Warten einfach ein paar Minuten, die sipgate Karte wird automatisch geladen.
+Nach einer Minute kannst du auf unserem Workadventure Server die neue Karte erkunden.
