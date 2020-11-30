@@ -11,7 +11,7 @@ Um loszustarten brauchst du:
 
 ## Was kann ich beitragen?
 
-Jeder ist willkommen der mitmachen möchte :) schau doch einfach mal im [Slack-Channel: #sipgate-workadventure](https://join.slack.com/share/zt-jmrubitv-9TaA2amEUZlmOSgQBIWMtg) vorbei.
+Jeder ist willkommen der mitmachen möchte :) schau doch einfach mal im [Slack-Channel: #sipgate-workadventure](https://sipgate.slack.com/archives/C01GJ3QQHKJ) vorbei.
 
 Du kannst gerne deinen Teamraum füllen, neue Sprites bauen die mehr nach sipgate aussehen oder sipgate einfach hübscher machen :)
 
@@ -69,7 +69,7 @@ Wir wollen versuchen die neu platzierten Objekte den Layern zuzuordnen.
 
 ### Fragen
 
-Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://join.slack.com/share/zt-jmrubitv-9TaA2amEUZlmOSgQBIWMtg) oder frag Celina oder Mathias
+Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://sipgate.slack.com/archives/C01GJ3QQHKJ) oder frag Celina oder Mathias
 
 ### Pushing the map
 
