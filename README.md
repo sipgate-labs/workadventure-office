@@ -43,6 +43,8 @@ Insbesondere müsst du:
 
 All dies wird in der [WorkAdventure-Dokumentation] (https://github.com/thecodingmachine/workadventure/#designing-a-map) beschrieben.
 
+Und auf der howto rc3 Seite sind auch ein paar Infos zu finden: (https://howto.rc3.world/maps.html#eigene-instanzen)
+
 ### Howto: Übersichtlichkeit
 
 Da jede Karte nur eine Datei hat, wollen wir mit den Layern versuchen etwas Ordnung zu halten.
