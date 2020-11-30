@@ -97,7 +97,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/miro.com\/app\/board\/o9J_kroLagA=\/"
+                 "value":"https:\/\/sipgate.github.io\/workadventure-office\/redirects\/link_to_open_friday_miro.html"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -105,7 +105,7 @@
                  "value":"onaction"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":90,
          "x":0,
          "y":0
@@ -141,7 +141,7 @@
          "name":"wall",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":90,
          "x":0,
          "y":0
@@ -153,7 +153,7 @@
          "name":"ordi",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":90,
          "x":0,
          "y":0
@@ -165,7 +165,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -182,7 +182,7 @@
                  "value":3
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":90,
          "x":0,
          "y":0
