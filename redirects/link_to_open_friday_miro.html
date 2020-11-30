@@ -18,6 +18,18 @@
     .text {
       text-align: center;
     }
+
+    .corner {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 120px;
+      height: 120px;
+      background: gray;
+      border: 1px solid gray;
+      border-left: 999px;
+      border-bottom-left-radius: 9999px;
+    }
   </style>
 </head>
 <body>
@@ -25,10 +37,11 @@
     <img src="miro-logo.png" class="image" alt="Miro Logo"/>
     <p class="text">Miro wird geöffnet. Oder klicke <a id="targetLink" target="_blank" href="https://miro.com/app/board/o9J_kroLagA=/">Hier</a></p>
   </div>
+  <div class="corner"></div>
   <script>
     setTimeout(function() {
       window.open(document.getElementById("targetLink").href);
-    }, 2000);
+    }, 20000000);
 </script>
 </body>
 </html>
