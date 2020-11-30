@@ -58,7 +58,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":92,
          "x":0,
          "y":0
@@ -127,7 +127,7 @@
          "height":60,
          "id":23,
          "name":"silent_bathroom",
-         "opacity":0.5,
+         "opacity":0.1,
          "properties":[
                 {
                  "name":"silent",
