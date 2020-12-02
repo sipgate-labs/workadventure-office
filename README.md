@@ -1,17 +1,22 @@
 # WorkAdventure sipgate Map
 
-In diesem Repo soll unser neues Virtuelles Büro entstehen. Du willst mitarbeiten? Super! Alles was du dafür brauchst findest du hier
+In diesem Repo soll unser neues virtuelles Büro entstehen.
+
+Du möchtest einfach nur ins Büro? Dann besuche den [Slack-Channel: #sipgate-workadventure](https://sipgate.slack.com/archives/C01GJ3QQHKJ), um den Link zur Map zu bekommen.
+
+Du willst mit das Büro nachbauen? Super! Jeder ist willkommen der mitmachen möchte :) Alles was du dafür brauchst findest du hier.
 
 ## Tools you will need
 
 Um loszustarten brauchst du:
 
-- the [Tiled editor](https://www.mapeditor.org/) software
-- "tiles" (i.e. images) - Die wichtigsten sind bereits in diesem Projekt importiert. Wenn du neue Importierst achte darauf, dass die Lizenz eine Open Source Lizenz ist und trage die Links / Quellen bitte in die [assets.txt](assets.txt) ein.
+- [git](https://git-scm.com/)
+- Einen [GitHub-Account](https://github.com/join)
+- Einen Tile Map Editor (z.B. [Tiled Map Editor](https://www.mapeditor.org/))
+- "Tile sets" (i.e. images)
+  Die wichtigsten sind bereits in diesem Projekt importiert. Wenn du neue hinzufügst, achte darauf, dass die Lizenz eine Open Source Lizenz ist und ergänze bitte die [Copyright-Tabelle](assets/COPYRIGHT.md). Du findest weitere Tilesets z.B. auf [OpenGameArt.org](https://opengameart.org/art-search-advanced?keys=&title=&field_art_tags_tid_op=or&field_art_tags_tid=tiles&name=&field_art_type_tid%5B%5D=9&field_art_type_tid%5B%5D=14&sort_by=count&sort_order=DESC&items_per_page=24&Collection=).
 
 ## Was kann ich beitragen?
-
-Jeder ist willkommen der mitmachen möchte :) schau doch einfach mal im [Slack-Channel: #sipgate-workadventure](https://sipgate.slack.com/archives/C01GJ3QQHKJ) vorbei.
 
 Du kannst gerne deinen Teamraum füllen, neue Sprites bauen die mehr nach sipgate aussehen oder sipgate einfach hübscher machen :)
 
@@ -19,7 +24,8 @@ Da es zu merge-Konflikten kommen kann, wenn mehrere gleichzeitig an einer Datei 
 
 ## Cloning this repo
 
-Um dich zu beteiligen brauchst check einfach dieses Repo aus.
+Um dich zu beteiligen, check einfach dieses Repo aus.
+
 Bist du noch nicht in der sipgate Orga im öffentlichen Github so sprich kurz mit Mathias, Celina oder Ben und lass dich hinzufügen, dann kannst du dieses Repo auch bearbeiten.
 
 ### Loading the map in Tiled
@@ -41,9 +47,9 @@ Insbesondere müsst du:
 - den "floor layer" konfigurieren (so dass WorkAdventure Zeichen über dem Boden, aber unter der Decke korrekt anzeigen kann)
 - schließlich kannst du auch Ausgänge platzieren, die auf andere Karten verweisen
 
-All dies wird in der [WorkAdventure-Dokumentation] (https://github.com/thecodingmachine/workadventure/#designing-a-map) beschrieben.
+All dies wird in der [WorkAdventure-Dokumentation](https://github.com/thecodingmachine/workadventure/#designing-a-map) beschrieben.
 
-Und auf der howto rc3 Seite sind auch ein paar Infos zu finden: (https://howto.rc3.world/maps.html#eigene-instanzen)
+Und auf der [howto rc3 Seite](https://howto.rc3.world/maps.html#eigene-instanzen) sind auch ein paar Infos zu finden.
 
 ### Howto: Übersichtlichkeit
 
@@ -75,7 +81,7 @@ Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://sipgate
 
 ### Pushing the map
 
-Wenn Deine Änderungen fertig sind, müssen du sie nur "committen" und an GitHub zurück "puschen".
+Wenn Deine Änderungen fertig sind, musst du sie nur "committen" und an GitHub zurück "puschen".
 Warten einfach ein paar Minuten, die sipgate Karte wird automatisch geladen.
 Nach einer Minute kannst du auf unserem Workadventure Server die neue Karte erkunden.
 
