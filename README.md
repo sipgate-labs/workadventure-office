@@ -78,3 +78,20 @@ Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://sipgate
 Wenn Deine Änderungen fertig sind, müssen du sie nur "committen" und an GitHub zurück "puschen".
 Warten einfach ein paar Minuten, die sipgate Karte wird automatisch geladen.
 Nach einer Minute kannst du auf unserem Workadventure Server die neue Karte erkunden.
+
+### Änderungen an der Map lokal ausprobieren.
+
+Du kannst Änderungen an der Map lokal ausprobieren. Dazu musst du dir vorab [Node.js](https://nodejs.org/) installieren und folgendes in einem Terminal tun:
+
+```sh
+# Change to this directory
+cd path/to/workadventure-office
+
+# Install dependencies
+npm install
+
+# Start local webserver
+npm start
+```
+
+Du solltest den aktuellen Stand der Map jetzt unter https://play.workadventu.re/_/global/localhost:8080/map.json ausprobieren können.
