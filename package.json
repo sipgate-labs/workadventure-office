@@ -1,0 +1,9 @@
+{
+  "name": "workadventure-office",
+  "scripts": {
+    "start": "http-server -S --cors -o"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
