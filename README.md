@@ -95,3 +95,9 @@ npm start
 ```
 
 Du solltest den aktuellen Stand der Map jetzt unter https://play.workadventu.re/_/global/localhost:8080/overworld.json ausprobieren können.
+
+### Aufgaben
+
+Hier ist eine unvollständige Liste an Dingen, die noch zu tun sind
+
+- [ ]  Die Seite hinter einer Authentifizierung verstecken (Google?)
