@@ -1,4 +1,0 @@
-Assets:
-
-fantasy.png - https://github.com/npeguin/fantasy-map/blob/master/fantasy.png0
-floor_tiles_by_AntumDeluge.png  https://opengameart.org/content/floor-tiles by AntumDeluge
