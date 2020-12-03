@@ -68,7 +68,7 @@
          "height":60,
          "id":10,
          "name":"map_back_to_old_map",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitSceneUrl",
@@ -86,7 +86,7 @@
          "height":60,
          "id":31,
          "name":"map_sipgate_obergeschoss",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"exitSceneUrl",
