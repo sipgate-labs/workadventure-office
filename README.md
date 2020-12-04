@@ -100,7 +100,7 @@ npm install
 npm start
 ```
 
-Du solltest den aktuellen Stand der Map jetzt unter https://play.workadventu.re/_/global/localhost:8080/overworld.json ausprobieren können.
+Du solltest den aktuellen Stand der Map jetzt unter https://play.workadventu.re/_/global/localhost:8080/overworld.json ausprobieren können. Um auf den von dir bearbeiteten Teil der Map zu kommen ist evtl. etwas URL-Frikulatur von Nöten.
 
 ### Aufgaben
 
