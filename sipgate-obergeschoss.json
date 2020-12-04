@@ -91,7 +91,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"taming-the-beast"
+                 "value":"TeamRaumTamingTheBeast"
                 }],
          "type":"tilelayer",
          "visible":true,
