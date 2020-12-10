@@ -34,7 +34,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -46,7 +46,7 @@
          "name":"--define-background--",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -73,7 +73,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"https:\/\/sipgate.github.io\/workadventure-office\/sipgate-untergeschoss.json"
+                 "value":"https:\/\/sipgate.github.io\/workadventure-office\/sipgate-obergeschoss.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -106,7 +106,7 @@
          "name":"--only-links-below--",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -118,7 +118,7 @@
          "name":"wall",
          "opacity":0,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -130,7 +130,7 @@
          "name":"blockingObjectsBottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -142,7 +142,7 @@
          "name":"blockingObjectsTop",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -154,7 +154,7 @@
          "name":"stuffBottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -166,7 +166,7 @@
          "name":"stuffTop",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
@@ -178,7 +178,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -195,7 +195,7 @@
                  "value":3
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
