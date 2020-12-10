@@ -14,3 +14,4 @@ Dateiname | Lizenz | Quelle
 `treepacknewest.png` | CC-BY-SA 3.0 / CC-BY-SA 4.0 | https://opengameart.org/content/lots-of-trees-and-plants-from-oga-db32-tilesets-pack-1
 `wateranimate2.png` | CC-BY-SA 3.0 | https://opengameart.org/content/lpc-animated-water-and-waterfalls created by ZaPaper
 `sipgate-waterfall.png` | CC-BY-SA 3.0 | https://opengameart.org/content/lpc-animated-water-and-waterfalls created by ZaPaper, modified by Mathias
+`turntables.png` | Public Domain | hier 
