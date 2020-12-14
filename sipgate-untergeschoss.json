@@ -405,6 +405,11 @@
                  "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"silent",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -610,7 +615,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":44,
+ "nextlayerid":45,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
