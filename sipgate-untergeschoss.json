@@ -420,7 +420,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"silent ",
+                 "name":"silent",
                  "type":"bool",
                  "value":true
                 }],
