@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Das Konzert beginnt in wenigen Minuten</title>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+    }
+    .container {
+    }
+
+    .image {
+
+    }
+
+    .text {
+      text-align: center;
+    }
+
+    .corner {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 120px;
+      height: 120px;
+      background: gray;
+      border: 1px solid gray;
+      border-left: 999px;
+      border-bottom-left-radius: 9999px;
+    }
+
+    .fullscreenbox {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(162,97,164,0.43);
+    }
+
+    .iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .hideForZoom {
+      /* display: none; */
+    }
+  </style>
+</head>
+<body>
+  <div style="display: none" class="fullscreenbox">
+    <iframe src="https://zoom.us/join" sandbox="allow-forms allow-scripts" class="iframe"></iframe>
+  </div>
+  <div class="container hideForZoom">
+    <p class="text">Bitte warten, die Band zieht sich noch um. Nervös? Dann hier <a id="targetLink" onclick="refresh()" href="">klicken</a></p>
+  </div>
+  <div class="corner hideForZoom"></div>
+  <script>
+    function refresh() {
+      location.reload();
+    }
+
+    setTimeout(function() {
+      refresh();
+    }, 60000);
+</script>
+</body>
+</html>
