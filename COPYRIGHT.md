@@ -17,3 +17,4 @@ Dateiname | Lizenz | Quelle
 `llama_walk.png` | CC-BY-SA 3.0 GPL 2.0 | https://opengameart.org/content/lpc-style-farm-animals
 `llama_shadow.png` | CC-BY-SA 3.0 GPL 2.0 | https://opengameart.org/content/lpc-style-farm-animals
 `turntables.png` | ? | hier (Teile von `fantasy.png` übernommen)
+`CampFireFinished.png` | CC-BY-SA 3.0 | Zabin and Jetrel - https://opengameart.org/content/camp-fire-animation-for-rpgs-finished
