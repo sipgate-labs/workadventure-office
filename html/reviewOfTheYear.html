@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>Jahresrückblick</title>
+    <script>
+        let chosenOne = "";
+
+        function clickZoom() {
+            chosenOne = "zoom";
+            document.getElementById("zoom").classList.remove("hidden");
+            document.getElementById("youtube").classList.add("hidden");
+            activateButton("zoomButton");
+            deactivateButton("youtubeButton");
+        }
+
+        function clickYoutube() {
+            chosenOne = "youtube"
+            document.getElementById("zoom").classList.add("hidden");
+            document.getElementById("youtube").classList.remove("hidden");
+            activateButton("youtubeButton");
+            deactivateButton("zoomButton");
+        }
+
+        function activateButton(button) {
+            document.getElementById(button).classList.remove("inactive");
+            document.getElementById(button).classList.add("active");
+        }
+
+        function deactivateButton(button) {
+            document.getElementById(button).classList.remove("active");
+            document.getElementById(button).classList.add("inactive");
+        }
+    </script>
+
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #youtube, #zoom {
+            height: 100%;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .inactive {
+            background-color: #639FED;
+        }
+
+        .active {
+            background-color: #1b76ea;
+        }
+
+        .button {
+            padding: 5px;
+            margin: 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 25px;
+        }
+
+        iframe {
+            width: 100%;
+            height: inherit;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="buttons">
+        <div class="button inactive" id="zoomButton" onclick="clickZoom()">Besuch Konzert in Zoom!</div>
+        <div class="button inactive" id="youtubeButton" onclick="clickYoutube()">Schau dir den Stream auf Youtube an!</div>
+    </div>
+
+    <div class="hidden" id="youtube">
+        <iframe src="https://www.youtube.com/embed/S9VPuuTdoEU"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="hidden" id="zoom" style="overflow: hidden; padding-top: 56.25%; position: relative;">
+        <iframe allow="microphone; camera"
+                style="border: 0;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;"
+                src="https://zoom.us/wc/99853063528/join"
+                frameborder="0"></iframe>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
