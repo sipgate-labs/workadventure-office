@@ -30,12 +30,6 @@
             document.getElementById(button).classList.remove("active");
             document.getElementById(button).classList.add("inactive");
         }
-
-
-        //Delete when youtube link is correct
-        setTimeout(function() {
-            location.reload();
-        }, 60000);
     </script>
 
     <style type="text/css">
@@ -133,12 +127,11 @@
         <div class="button inactive" id="youtubeButton" onclick="clickYoutube()">Schau dir den Stream auf Youtube an!</div>
     </div>
 
-    <!--do not forget to delete refresh if you change youtube link-->
     <div class="hidden" id="youtube">
-        <iframe src="https://www.youtube.com/embed/S9VPuuTdoEU"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/j6LBkk100Ok" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
     </div>
     <div id="zoom">
         <p>Fürs richtige Konzert Erlebnis ladet ihr euch am Besten die <a href="https://zoom.us/support/download" target="_blank">Zoom App</a> herunter, damit ihr Teil des Publikums seid und live applaudieren könnt. Alternativ könnt ihr auch über den <a href="https://us02web.zoom.us/j/86778812048?pwd=ZEloVElLS1pxRVpqbTFQSXJOUHBYdz09" target="_blank">Browser</a> beitreten (lasst euch nicht von ein paar Hürden bei der Anmeldung abschrecken. Es lohnt sich, versprochen!). </p>
