@@ -1,9 +1,13 @@
 {
   "name": "workadventure-office",
   "scripts": {
-    "start": "http-server --cors -o"
+    "start": "http-server --cors -o",
+    "convert": "./convert.sh"
   },
   "devDependencies": {
     "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "tile-extruder": "^2.0.6"
   }
 }
