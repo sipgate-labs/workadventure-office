@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Jahresrückblick</title>
     <script>
         let chosenOne = "";
@@ -111,6 +112,18 @@
         p>a {
             color: #1b76ea;
         }
+
+        .corner {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 96px;
+            height: 96px;
+            background: gray;
+            border: 1px solid gray;
+            border-left: 999px;
+            border-bottom-left-radius: 9999px;
+        }
     </style>
 </head>
 <body>
@@ -129,10 +142,10 @@
     </div>
     <div id="zoom">
         <p>Fürs richtige Konzert Erlebnis ladet ihr euch am Besten die <a href="https://zoom.us/support/download" target="_blank">Zoom App</a> herunter, damit ihr Teil des Publikums seid und live applaudieren könnt. Alternativ könnt ihr auch über den <a href="https://us02web.zoom.us/j/86778812048?pwd=ZEloVElLS1pxRVpqbTFQSXJOUHBYdz09" target="_blank">Browser</a> beitreten (lasst euch nicht von ein paar Hürden bei der Anmeldung abschrecken. Es lohnt sich, versprochen!). </p>
-        
         <p><span class="big">Meeting-ID:</span> 867 7881 2048</p>
         <p><span class="big">Kenncode:</span> 605524</p>
     </div>
+    <div class="corner" ></div>
 </div>
 </body>
 </html>
