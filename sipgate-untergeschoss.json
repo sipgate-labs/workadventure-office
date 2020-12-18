@@ -497,7 +497,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/github.sipgate.net\/pages\/sipgate\/workadventure-non-public-links\/reviewOfTheYear.html"
+                 "value":"https:\/\/sipgate.github.io\/workadventure-office\/redirects\/reviewOfTheYear.html"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
