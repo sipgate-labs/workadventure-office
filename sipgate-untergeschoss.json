@@ -789,6 +789,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"collides",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"depth",
                  "type":"int",
                  "value":3
