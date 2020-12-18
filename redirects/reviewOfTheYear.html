@@ -29,6 +29,12 @@
             document.getElementById(button).classList.remove("active");
             document.getElementById(button).classList.add("inactive");
         }
+
+
+        //Delete when youtube link is correct
+        setTimeout(function() {
+            location.reload();
+        }, 60000);
     </script>
 
     <style type="text/css">
@@ -114,6 +120,7 @@
         <div class="button inactive" id="youtubeButton" onclick="clickYoutube()">Schau dir den Stream auf Youtube an!</div>
     </div>
 
+    <!--do not forget to delete refresh if you change youtube link-->
     <div class="hidden" id="youtube">
         <iframe src="https://www.youtube.com/embed/S9VPuuTdoEU"
                 frameborder="0"
@@ -125,16 +132,6 @@
         
         <p><span class="big">Meeting-ID:</span> 867 7881 2048</p>
         <p><span class="big">Kenncode:</span> 605524</p>
-        
-        <!--<iframe allow="microphone; camera"
-                style="border: 0;
-                height: 100%;
-                left: 0;
-                position: absolute;
-                top: 0;
-                width: 100%;"
-                src="https://zoom.us/wc/99853063528/join"
-                frameborder="0"></iframe>-->
     </div>
 </div>
 </body>
