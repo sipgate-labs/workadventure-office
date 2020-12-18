@@ -90,6 +90,20 @@
         a {
             color: white;
         }
+
+        p {
+            font-size: x-large;
+            font-weight: 500;
+            color:black
+        }
+
+        .big {
+            font-weight: 800;
+        }
+
+        p>a {
+            color: #1b76ea;
+        }
     </style>
 </head>
 <body>
@@ -105,8 +119,12 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </div>
-    <div class="hidden" id="zoom" style="overflow: hidden; padding-top: 56.25%; position: relative;">
-        <iframe allow="microphone; camera"
+    <div id="zoom">
+        <p>Fürs richtige Konzert Erlebnis ladet ihr euch am Besten die <a href="https://zoom.us/support/download">Zoom App</a> herunter, damit ihr Teil des Publikums seid und live applaudieren könnt. Alternativ könnt ihr auch über den Browser beitreten (lasst euch nicht von ein paar Hürden bei der Anmeldung abschrecken. Es lohnt sich, versprochen!). </p>
+        <p><span class="big">Meeting-ID:</span> 867 7881 2048</p>
+        <p><span class="big">Kenncode:</span> 605524</p>
+        
+        <!--<iframe allow="microphone; camera"
                 style="border: 0;
                 height: 100%;
                 left: 0;
@@ -114,7 +132,7 @@
                 top: 0;
                 width: 100%;"
                 src="https://zoom.us/wc/99853063528/join"
-                frameborder="0"></iframe>
+                frameborder="0"></iframe>-->
     </div>
 </div>
 </body>
