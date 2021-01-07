@@ -79,6 +79,25 @@ Wir wollen versuchen die neu platzierten Objekte den Layern zuzuordnen.
 
 Du brauchst Hilfe? Join: [Slack-Channel: #sipgate-workadventure](https://sipgate.slack.com/archives/C01GJ3QQHKJ) oder frag Celina oder Mathias
 
+#### Wie muss man Assets aufbereiten, damit keine Renderbugs entstehen?
+
+Es gibt einen Assets Ordner, wo die Orginal-Dateien liegen und einen assets-converted Ordner, wo die Bilder liegen, die wir in Tiles benutzen müssen.
+
+Wenn du nur die Karte im Tiles baust/bearbeitest:
+* Für dich ändert sich praktisch nichts.
+
+Wenn du neue Sprites bei Tiles in die Karte lädst:
+* Achte darauf IMMER die konvertierten Sprites aus dem assets-converted Ordner zu benutzen. 
+* Beim Importieren MUSST du  "margin":1 und "spacing":2 eingeben.
+
+Wenn du Sprites Editierst
+* Einmalig ```npm install```ausführen
+* Achte darauf die Orginal-Daten im assets/ Ordner zu ändern, die im Ordner assets-converted/ werden immer wieder automatisch überschrieben
+* Wenn du fertig bist mit dem Editieren der Sprites, einmal ```npm run convert``` laufen lassen
+
+Warum haben wir das gemacht:
+Es behebt den Bug, dass beim laufen überall so häßliche schwarze / pinke Balken auf der Karte erscheinen. Das kam daher, dass die tiles in den Sprites kein Padding um sich hatten. Dies fixt das npm tool was nun die Bilder konvertiert.
+
 ### Pushing the map
 
 Wenn Deine Änderungen fertig sind, musst du sie nur "committen" und an GitHub zurück "puschen".
@@ -106,4 +125,6 @@ Du solltest den aktuellen Stand der Map jetzt unter https://play.workadventu.re/
 
 Hier ist eine unvollständige Liste an Dingen, die noch zu tun sind
 
-- [ ]  Die Seite hinter einer Authentifizierung verstecken (Google?)
+- [ ] Die Seite hinter einer Authentifizierung verstecken (Google?)
+- [ ] Man könnte noch ein Watch script schreiben, was beim editieren der Sprites beim speichern automatisch konvertiert.
+ 
