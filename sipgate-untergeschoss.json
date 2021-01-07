@@ -343,7 +343,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"dev_kueche"
+                 "value":"dev-kueche"
                 }],
          "type":"tilelayer",
          "visible":true,
