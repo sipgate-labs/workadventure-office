@@ -62,7 +62,7 @@
          "height":16,
          "id":8,
          "name":"jitsi-secret-room",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"jitsiRoom",
@@ -70,7 +70,7 @@
                  "value":"alpaca-secret"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":24,
          "x":0,
          "y":0
