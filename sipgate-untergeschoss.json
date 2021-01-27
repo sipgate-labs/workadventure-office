@@ -948,7 +948,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"http:\/\/sipgate.github.io\/workadventure-office\/phh_alpaka_farm.json#start_door"
+                 "value":"http:\/\/sipgate.github.io\/workadventure-office\/phh-alpaka-farm.json#start_door"
                 }],
          "type":"tilelayer",
          "visible":true,

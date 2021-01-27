@@ -85,7 +85,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"http:\/\/sipgate.github.io\/workadventure-office\/sipgate-untergeschoss.json#start-phh-farm"
+                 "value":"http:\/\/sipgate.github.io\/workadventure-office\/sipgate-untergeschoss.json#start_phh_raum"
                 }],
          "type":"tilelayer",
          "visible":true,
